@@ -1,0 +1,267 @@
+.form__cats-info {
+  margin: 0;
+  border-bottom: 1px solid #d9d9d9;
+  width: calc(100% + 40px);
+  margin-left: -20px;
+  padding: 20px 20px 9px;
+}
+
+.form__inner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 14px;
+  position: relative;
+}
+
+.form__icon {
+  color: #222222;
+}
+
+.form__svg {
+  position: absolute;
+
+  &--email {
+    right: 16px;
+    top: 14px;
+    width: 17px;
+    height: 17px;
+  }
+
+  &--phone {
+    right: 13px;
+    top: 13px;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.form__label {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: $color_dark-gray-label;
+  margin: 0;
+  margin-right: 14px;
+  margin-bottom: 2px;
+  margin-left: -1px;
+
+  &--weight {
+    margin-right: 17px;
+  }
+
+  &--age {
+    margin-right: 16px;
+  }
+
+  &--email {
+    margin-right: 12px;
+  }
+
+  &--phone {
+    margin-right: 10px;
+  }
+}
+
+.form__label--radio {
+  display: block;
+  margin-bottom: 12.5px;
+  margin-left: 1px;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border: 9px solid $color_light;
+    border-radius: 50%;
+    margin-right: 16px;
+    margin-top: -2px;
+    margin-left: -1px;
+    margin-bottom: 2px;
+    box-shadow: 0 0 2px rgba(#cdcdcd, 1);
+    transition: 0.3s ease;
+  }
+
+  .form__radio:checked + &::before {
+    background-color: $color_green;
+  }
+
+  &:hover::before,
+  &:focus::before {
+    box-shadow: 0 0 2px rgba(#bababa, 1);
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.form__label--checkbox {
+  display: block;
+  margin-bottom: 12px;
+  margin-top: 2px;
+  padding-left: 2px;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #d9d9d9;
+    margin-right: 15px;
+    transition: 0.3s ease;
+  }
+
+  .form__checkbox:checked + &::before {
+    background-image: url("../img/icon-tick.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 21px 16px;
+  }
+
+  &:hover::before,
+  &:focus::before {
+    border: 1px solid #bababa;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.form__input {
+  flex-grow: 1;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: $color_dark-gray;
+  padding: 12px 15px 13px;
+  border: 1px solid #d9d9d9;
+  width: 100%;
+
+  &:hover {
+    border-color: #cdcdcd;
+  }
+
+  &:active,
+  &:focus {
+    outline: 2px solid $color_dark-gray;
+  }
+
+  &:active ~ .form__icon,
+  &:focus ~ .form__icon {
+    color: $color_green;
+  }
+
+  &--invalid {
+    outline: 2px solid #ff8282;
+    border-color: transparent;
+  }
+
+  &--invalid ~ .form__icon {
+    color: #ff8282;
+  }
+
+  &--email {
+    padding-left: 14px;
+    padding-right: 50px;
+  }
+
+  &--phone {
+    padding-right: 60px;
+  }
+
+  &--comment {
+    display: block;
+    height: 150px;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 14px;
+  }
+}
+
+.form__program {
+  margin: 0;
+  border-bottom: 1px solid #d9d9d9;
+  width: calc(100% + 40px);
+  margin-left: -20px;
+  padding: 22px 20px 6px;
+}
+
+.form__wrapper {
+  padding-top: 28px;
+  // position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    margin-top: 14px;
+    // top: 40px;
+    left: 0;
+    background-color: $color_green;
+    z-index: -1;
+  }
+
+  &--comment {
+    padding-top: 14px;
+  }
+
+  &--add {
+    padding-top: 29px;
+  }
+}
+
+.form__extra {
+  margin: 0;
+  margin-bottom: 34px;
+}
+
+.form__title {
+  font-family: inherit;
+  font-size: 24px;
+  line-height: 24px;
+  color: $color_dark-gray-title;
+  margin: 0;
+  background-color: $color_light;
+  display: inline-block;
+  padding-right: 22px;
+  padding-left: 20px;
+  margin-left: -21px;
+  margin-bottom: 34px;
+  font-weight: 400;
+  width: min-content;
+}
+
+.form__btn {
+  width: 100%;
+  margin: 0 auto 21px;
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-left: 27px;
+  padding-bottom: 10px;
+}
+
+.form__prompt {
+  display: block;
+  margin: 0;
+  margin-bottom: 32px;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: $color_dark-gray;
+  font-weight: inherit;
+}

@@ -1,0 +1,22 @@
+.main-nav {
+  margin: 0;
+  position: relative;
+  margin-top: 12px;
+}
+
+.main-nav__toggle {
+  background-color: $color-light;
+  background-image: url("../img/icon-close.svg");
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 3px;
+  top: -42px;
+  cursor: pointer;
+}
+
+

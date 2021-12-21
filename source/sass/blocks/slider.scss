@@ -57,3 +57,17 @@
   margin: 0 6px;
   cursor: pointer;
 }
+
+@media (min-width: $tablet-width) {
+  .slider {
+    max-width: 570px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .slider {
+    margin: 0;
+  }
+}
+

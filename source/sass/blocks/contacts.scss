@@ -46,3 +46,21 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media (min-width: $tablet-width) {
+  .contacts {
+    padding-top: 0;
+    margin-bottom: 48px;
+
+    &--index {
+      background-color: $color_light;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contacts {
+    position: relative;
+    margin-bottom: 44px;
+  }
+}

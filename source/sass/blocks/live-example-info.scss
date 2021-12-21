@@ -64,3 +64,19 @@
   margin: 0;
   text-align: center;
 }
+
+@media (min-width: $tablet-width) {
+  .live-example-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .live-example-info {
+    display: block;
+    margin-bottom: 75px;
+  }
+}

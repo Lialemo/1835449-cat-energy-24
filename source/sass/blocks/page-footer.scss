@@ -1,4 +1,4 @@
-page-footer {
+.page-footer {
   background-color: $color_gray;
   padding-bottom: 30px;
 }
@@ -14,4 +14,21 @@ page-footer {
 .page-footer__social {
   margin-bottom: 13px;
   padding-right: 11px;
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer {
+    background-color: $color_gray;
+    padding-bottom: 60px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer__container {
+    position: relative;
+  }
+
+  .page-footer__social {
+    margin-bottom: 2px;
+  }
 }

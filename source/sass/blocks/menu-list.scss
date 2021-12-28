@@ -43,3 +43,27 @@
     color: rgba($color_dark-gray-title, 0.3);
   }
 }
+
+@media (min-width: $tablet-width) {
+  .menu-list {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .menu-list__item {
+    margin-left: 34px;
+  }
+
+  .menu-list__link {
+    font-size: 20px;
+
+    &--active::after {
+      width: calc(100% - 3px);
+      left: 1px;
+      bottom: 10px;
+    }
+  }
+}

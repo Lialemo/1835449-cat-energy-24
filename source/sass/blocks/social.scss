@@ -51,3 +51,31 @@
     margin-bottom: 1px;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .social {
+    border: none;
+    margin-top: 3px;
+  }
+
+  .social__item {
+    margin-right: 29px;
+  }
+
+  .social__image {
+    &--facebook {
+      width: 14px;
+      height: 28px;
+    }
+
+    &--instagram {
+      width: 23px;
+      height: 23px;
+    }
+
+    &--vk {
+      width: 30px;
+      height: 16px;
+    }
+  }
+}

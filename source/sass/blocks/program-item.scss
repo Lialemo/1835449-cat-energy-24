@@ -117,3 +117,33 @@
     color: rgba(17, 17, 17, 0.3);
   }
 }
+
+@media (min-width: $tablet-width) {
+  .program-item__title {
+    font-size: 36px;
+    line-height: 37px;
+    margin-bottom: 25px;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .program-item {
+    width: 570px;
+    margin-bottom: 0;
+    margin-right: 80px;
+    padding: 75px 50px 62px 52px;
+
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (min-width: $tablet-width) and (max-width: $desktop-width - 1) {
+  .program-item {
+    position: relative;
+    padding: 75px 270px 62px 53px;
+    margin-bottom: 31px;
+  }
+}

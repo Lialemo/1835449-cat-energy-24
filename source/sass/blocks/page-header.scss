@@ -6,3 +6,10 @@
     border: none;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    padding-top: 22px;
+    border: none;
+  }
+}

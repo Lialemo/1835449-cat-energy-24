@@ -1,0 +1,27 @@
+.page {
+
+}
+
+.page__programs-categories {
+  margin-bottom: 17px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 45px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 73px;
+  }
+}
+
+.page__advantages {
+  margin-bottom: 43px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 52px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 5px;
+  }
+}

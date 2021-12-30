@@ -1,5 +1,5 @@
 .advantages {
-  margin-bottom: 43px;
+  //margin-bottom: 43px;
 }
 
 .advantages__title {
@@ -60,17 +60,5 @@
 
   &--time::before {
     background-image: url("../img/advantage-clock.png");
-  }
-}
-
-@media (min-width: $tablet-width) {
-  .advantages {
-    margin-bottom: 52px;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .advantages {
-    margin-bottom: 5px;
   }
 }

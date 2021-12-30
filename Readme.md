@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Алеся Корень](https://up.htmlacademy.ru/adaptive/24/user/1835449).
-* Наставник: [Антон Попов](https://htmlacademy.ru/profile/joker)
+* Наставник: [Алексей Елькин](https://htmlacademy.ru/profile/alex_elkin)
 
 ---
 

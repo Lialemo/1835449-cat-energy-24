@@ -9,3 +9,18 @@
   margin-bottom: 19px;
   padding-right: 20px;
 }
+
+@media (min-width: $tablet-width) {
+  .page-description {
+    width: 350px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 46px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-description {
+    margin-bottom: 66px;
+  }
+}

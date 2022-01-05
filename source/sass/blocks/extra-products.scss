@@ -91,3 +91,22 @@
   padding-left: 12px;
 }
 
+@media (min-width: $tablet-width) and (max-width: $desktop-width - 1) {
+  .extra-products__item {
+    padding: 25px 35px 26px 37px;
+    margin: 0;
+    border: 1px solid #d9d9d9;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .extra-products {
+    margin-bottom: 76px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .extra-products {
+    margin-bottom: 86px;
+  }
+}

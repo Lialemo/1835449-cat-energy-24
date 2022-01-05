@@ -265,3 +265,21 @@
   color: $color_dark-gray;
   font-weight: inherit;
 }
+
+@media (min-width: $tablet-width) and (max-width: $desktop-width - 1) {
+  .form__container {
+    padding: 0 67px 0 71px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .form {
+    padding-bottom: 72px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form {
+    padding-bottom: 82px;
+  }
+}

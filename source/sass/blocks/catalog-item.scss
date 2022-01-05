@@ -79,3 +79,24 @@
   padding: 10px 0 10px 2px;
 }
 
+@media (min-width: $tablet-width) {
+  .catalog-item {
+    min-width: 324px;
+    width: 45%;
+    margin-right: 0;
+    border: none;
+    text-align: center;
+    margin-left: 0;
+    padding: 0 37px 40px;
+    margin-bottom: 55px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .catalog-item {
+    min-width: inherit;
+    width: 245px;
+    margin-right: 80px;
+    margin-bottom: 57px;
+  }
+}

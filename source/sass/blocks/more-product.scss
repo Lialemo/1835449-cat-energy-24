@@ -49,3 +49,24 @@
   padding: 10px;
   padding-left: 12px;
 }
+
+@media (min-width: $tablet-width) {
+  .more-product {
+    min-width: 324px;
+    width: 45%;
+    margin-right: 0;
+    border: 1px solid #d9d9d9;
+    text-align: center;
+    margin-left: 0;
+    padding: 163px 37px 37px;
+    margin-bottom: 55px;
+    margin-top: 85px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .more-product {
+    width: 245px;
+    min-width: inherit;
+  }
+}

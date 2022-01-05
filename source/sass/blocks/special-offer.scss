@@ -42,3 +42,22 @@
   }
 }
 
+@media (min-width: $tablet-width) and (max-width: $desktop-width - 1) {
+  .special-offer {
+    min-height: 200px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 42px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .special-offer {
+    min-height: 289px;
+    width: 245px;
+    margin-bottom: 0;
+    padding: 42px 30px;
+    padding-left: 31px;
+    padding-top: 122px;
+  }
+}

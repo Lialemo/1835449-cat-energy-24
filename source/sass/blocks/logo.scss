@@ -25,3 +25,32 @@
   width: 128px;
   height: 24px;
 }
+
+@media (min-width: $tablet-width) {
+  .logo__img {
+    width: 173px;
+    height: auto;
+    max-width: 100%;
+
+    &--footer {
+      width: 128px;
+      height: 24px;
+      margin-top: 4px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .logo {
+    transform: translateY(-2px);
+  }
+
+  .logo__img {
+    width: 202px;
+    height: auto;
+
+    &--footer {
+      width: 128px;
+    }
+  }
+}

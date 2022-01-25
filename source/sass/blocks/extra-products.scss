@@ -65,7 +65,7 @@
   margin-bottom: 15px;
 }
 
-.extra-products__field {
+.extra-products__parameter {
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 14px;
@@ -74,7 +74,7 @@
   margin: 0;
 }
 
-.extra-products__value {
+.extra-products__meaning {
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 14px;
@@ -102,11 +102,131 @@
 @media (min-width: $tablet-width) {
   .extra-products {
     margin-bottom: 76px;
+
+    &::before {
+      margin-top: 22px;
+    }
+  }
+
+  .extra-products__title {
+    font-size: 36px;
+    line-height: 36px;
+    padding-left: 38px;
+    margin-left: -1px;
+    margin-bottom: 80px;
+    padding-right: 36px;
+  }
+
+  .extra-products__list {
+    margin-bottom: 70px;
+  }
+
+  .extra-products__name {
+    margin: 0;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .extra-products__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+  }
+
+  .extra-products__desctiption {
+    width: 280px;
+    justify-content: flex-end;
+    margin: 0;
+    margin-top: 4px;
+  }
+
+  .extra-products__parameter {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .extra-products__meaning {
+    width: 96px;
+    text-align: right;
+    padding-left: 10px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .extra-products__btn {
+    padding: 10px;
+    padding-left: 7px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .extra-products {
     margin-bottom: 86px;
+  }
+
+  .extra-products__title {
+    padding-left: 40px;
+    margin-left: -41px;
+  }
+
+  .extra-products__list {
+    margin-bottom: 0;
+    width: 895px;
+  }
+
+  .extra-products__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .extra-products__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    margin: 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .extra-products__inner {
+    margin: 0;
+    width: 636px;
+  }
+
+  .extra-products__name {
+    width: 325px;
+    padding-right: 40px;
+    margin-top: 4px;
+  }
+
+  .extra-products__desctiption {
+    margin-top: 8px;
+    width: 311px;
+  }
+
+  .extra-products__parameter {
+    margin: 0;
+    text-align: left;
+    width: 284px;
+    padding-right: 25px;
+  }
+
+  .extra-products__meaning {
+    width: 93px;
+    text-align: left;
+  }
+
+  .extra-products__btn {
+    width: 245px;
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-bottom: 10px;
   }
 }

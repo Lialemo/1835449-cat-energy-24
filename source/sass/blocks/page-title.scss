@@ -19,11 +19,21 @@
     margin-bottom: 80px;
     font-size: 60px;
     line-height: 60px;
+
+
+  &--form {
+    margin-left: -42px;
+    margin-bottom: 55px;
   }
+}
 }
 
 @media (min-width: $desktop-width) {
   .page-title {
     margin-top: 54px;
+  }
+
+  .page-title--form {
+    margin-left: 0;
   }
 }

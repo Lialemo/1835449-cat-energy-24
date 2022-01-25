@@ -8,3 +8,10 @@
     padding: 0 30px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .container {
+    width: $desktop-width;
+    padding: 0 40px;
+  }
+}

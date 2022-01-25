@@ -11,3 +11,30 @@
   width: 100%;
 }
 
+.btn--selection {
+  background-color: $color_green;
+  color: $color_light;
+
+  &:hover,
+  &:focus {
+    background-color: $color_dark-green;
+  }
+
+  &:active {
+    color: rgba($color_light, 0.3);
+  }
+}
+
+.btn--select {
+  background-color: $color_gray;
+  color: $color_dark-gray;
+
+  &:hover,
+  &:focus {
+    background-color: #ebebeb;
+  }
+
+  &:active {
+    color: rgba($color_dark-gray, 0.3);
+  }
+}

@@ -72,11 +72,67 @@
     align-items: center;
     margin-bottom: 80px;
   }
+
+  .live-example-info__wrapper {
+    margin: 0;
+    margin-bottom: 5px;
+    width: 366px;
+    max-width: inherit;
+  }
+
+  .live-example-info__item {
+    width: 162px;
+    padding: 14px 25px 19px;
+  }
+
+  .live-example-info__text {
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .live-example-info__caption {
+    font-size: 14px;
+    line-height: 14px;
+    background-color: $color_light;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+  }
+
+  .live-example-info__cost {
+    width: 200px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: right;
+    margin-bottom: 7px;
+  }
+
+  .live-example-info__number {
+    margin-top: 9px;
+    display: inline-block;
+  }
 }
 
 @media (min-width: $desktop-width) {
   .live-example-info {
     display: block;
     margin-bottom: 75px;
+  }
+
+  .live-example-info__wrapper {
+    margin-bottom: 51px;
+  }
+
+  .live-example-info__caption {
+    background-color: $color_gray;
+  }
+
+  .live-example-info__cost {
+    width: auto;
+    text-align: left;
+  }
+
+  .live-example-info__number {
+    margin-left: 60px;
   }
 }

@@ -1,21 +1,5 @@
-//.programs-categories {
-  //margin: 0;
-  //margin-bottom: 17px;
-//}
-
-@media (min-width: $tablet-width) {
-  .programs-categories {
-    //margin-bottom: 45px;
-  }
-}
-
 @media (min-width: $desktop-width) {
-  .programs-categories {
-    //margin-bottom: 73px;
-  }
-
   .programs-categories__wrapper {
     display: flex;
-    //flex-wrap: wrap;
   }
 }

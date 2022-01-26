@@ -70,6 +70,7 @@
   display: block;
   margin-bottom: 12.5px;
   margin-left: 1px;
+  cursor: pointer;
 
   &::before {
     content: "";
@@ -106,6 +107,7 @@
   margin-bottom: 12px;
   margin-top: 2px;
   padding-left: 2px;
+  cursor: pointer;
 
   &::before {
     content: "";

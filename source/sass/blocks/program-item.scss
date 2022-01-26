@@ -128,7 +128,6 @@
   .program-item__description {
     font-size: 16px;
     line-height: 24px;
-    padding-right: 5px;
     margin-bottom: 37px;
   }
 
@@ -198,7 +197,7 @@
 @media (min-width: $tablet-width) and (max-width: $desktop-width - 1) {
   .program-item {
     position: relative;
-    padding: 75px 270px 62px 53px;
+    padding: 75px 315px 62px 53px;
     margin-bottom: 31px;
   }
 

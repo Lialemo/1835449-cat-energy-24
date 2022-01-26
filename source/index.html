@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title>HTML Academy: Кэт энерджи</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" href="fonts/oswaldmedium.woff2" as="font">
-    <link rel="preload" href="fonts/oswaldregular.woff2" as="font">
+    <link rel="preload" href="fonts/oswaldmedium.woff2" as="font" crossorigin="">
+    <link rel="preload" href="fonts/oswaldregular.woff2" as="font" crossorigin="">
     <link rel="stylesheet" href="css/style.min.css">
   </head>
 
@@ -140,13 +140,13 @@
               </div>
             </div>
             <div class="slider__buttons">
-              <span class="slider__label slider__label--before" tabindex="0">Было</span>
+              <button class="slider__label slider__label--before" type="button" tabindex="0">Было</button>
               <div class="slider__bar">
                 <div class="slider__toggle">
                   <span class="visually-hidden">Ползунок</span>
                 </div>
               </div>
-              <span class="slider__label slider__label--after" tabindex="0">Стало</span>
+              <button class="slider__label slider__label--after" type="button" tabindex="0">Стало</button>
             </div>
           </section>
         </div>
@@ -167,7 +167,7 @@
       </div>
 
       <div class="contacts__map">
-        <div id="map" class="contacts__map--inner"></div>
+        <div id="map" class="contacts__map-inner"></div>
       </div>
 
     </section>

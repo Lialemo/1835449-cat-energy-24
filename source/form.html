@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <title>HTML Academy: Кэт энерджи</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preload" href="fonts/oswaldmedium.woff2" as="font">
-  <link rel="preload" href="fonts/oswaldregular.woff2" as="font">
+  <link rel="preload" href="fonts/oswaldmedium.woff2" as="font" crossorigin="">
+  <link rel="preload" href="fonts/oswaldregular.woff2" as="font" crossorigin="">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -105,7 +105,8 @@
       <section class="form__wrapper form__wrapper--comment">
         <div class="form__container container">
           <h2 class="form__title">Комментарий</h2>
-          <textarea class="form__input form__input--comment" name="comment" cols="30" rows="10" placeholder="Расскажите обо всех повадках кота"></textarea>
+          <label class="form__label form__label--comment visually-hidden" for="comment">Комментарий</label>
+          <textarea class="form__input form__input--comment" id="comment" name="comment" cols="30" rows="10" placeholder="Расскажите обо всех повадках кота"></textarea>
         </div>
       </section>
 
@@ -152,7 +153,7 @@
       </div>
 
       <div class="contacts__map">
-        <div id="map" class="contacts__map--inner"></div>
+        <div id="map" class="contacts__map-inner"></div>
       </div>
     </section>
 

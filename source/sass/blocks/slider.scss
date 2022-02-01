@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   margin: 0;
-  margin-bottom: 32px;
+  margin-bottom: 11px;
   height: 240px;
 }
 
@@ -16,15 +16,14 @@
 }
 
 .slider__image {
-  width: auto;
-  height: 100%;
+  width: 280px;
+  height: 232px;
 }
 
 .slider__buttons {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 5px;
 }
 
 .slider__label {
@@ -35,6 +34,7 @@
   text-transform: uppercase;
   color: $color_dark-gray-title;
   cursor: pointer;
+  border: none;
 }
 
 .slider__bar {
@@ -46,7 +46,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin: 0 18px;
+  margin: 0 13px;
 }
 
 .slider__toggle {
@@ -67,7 +67,7 @@
   .slider__images {
     width: auto;
     height: 511px;
-    margin-bottom: 16px;
+    margin-bottom: 34px;
     justify-content: space-between;
   }
 
@@ -84,9 +84,13 @@
 
   .slider__image {
     position: absolute;
+    width: auto;
+    height: auto;
 
     &--before {
-      left: -15px;
+      left: -10px;
+      top: 0;
+      height: 499px;
     }
 
     &--after {
@@ -97,13 +101,14 @@
   .slider__label {
     font-size: 20px;
     line-height: 20px;
-    border: 0;
     padding: 0;
     border-bottom: 1px dotted rgba($color_dark-gray, 0.23);
-    padding-bottom: 6px;
+    padding-bottom: 5px;
+    margin-left: 2px;
 
     &--after {
       padding-left: 3px;
+      margin-right: -3px;
     }
 
     &:hover,
@@ -142,7 +147,7 @@
     top: -15px;
     width: 34px;
     height: 34px;
-    background: radial-gradient(rgb(104, 183, 56) 5px, $color_light 5px);
+    background: radial-gradient(rgb(104, 183, 56) 4px, $color_light 4px);
 
     &:hover,
     &:focus {
@@ -160,14 +165,27 @@
 @media (min-width: $desktop-width) {
   .slider {
     margin: 0;
+    max-width: 592px;
+    width: 592px;
   }
 
   .slider__images {
-    margin-bottom: 37px;
+    margin-bottom: 47px;
+  }
+
+  .slider__image--before {
+    left: 2px;
+    top: 13px;
+    height: 499px;
+  }
+
+  .slider__image--after {
+    right: -1px;
+    top: 13px;
   }
 
   .slider__buttons {
-    padding-right: 0;
-    justify-content: flex-end;
+    justify-content: center;
+    padding: 0 10px 0 12px;
   }
 }

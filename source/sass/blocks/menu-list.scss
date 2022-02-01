@@ -57,11 +57,13 @@
     padding-left: 0;
     font-weight: 400;
     width: auto;
+    padding-top: 23px;
+    padding-bottom: 22px;
 
     &--active::after {
-      width: calc(100% - 2px);
+      width: 100%;
       left: 0;
-      bottom: 11px;
+      bottom: 13px;
       height: 2px;
       background-color: $color-green;
       content: "";
@@ -72,11 +74,12 @@
   .menu-list__item {
     border: none;
     width: auto;
-    margin-left: 35px;
+    margin-left: 33px;
     background-color: inherit;
 
     &:last-child {
       border: none;
+      margin-left: 38px;
     }
 
     &:first-child {
@@ -88,16 +91,21 @@
 
 @media (min-width: $desktop-width) {
   .menu-list__item {
-    margin-left: 34px;
+    margin-left: 36px;
+
+    &:last-child {
+      margin-left: 34px;
+    }
   }
 
   .menu-list__link {
     font-size: 20px;
+    padding-top: 20px;
 
     &--active::after {
       width: calc(100% - 3px);
       left: 1px;
-      bottom: 10px;
+      bottom: 9px;
     }
   }
 

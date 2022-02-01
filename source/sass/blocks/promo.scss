@@ -1,6 +1,6 @@
 .promo {
   margin: 0;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 
 .promo__container {
@@ -12,7 +12,7 @@
   background-image: url("../img/index-background-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: center 0;
-  padding: 28px 20px 152px;
+  padding: 27px 20px 149px;
   text-align: center;
   z-index: 10;
 
@@ -29,7 +29,7 @@
   line-height: 36px;
   font-weight: inherit;
   margin: 0;
-  margin-bottom: 25px;
+  margin-bottom: 26px;
   padding: 0;
 }
 
@@ -40,10 +40,11 @@
   text-transform: uppercase;
   font-weight: inherit;
   color: $color_light;
+  margin-right: 3px;
 }
 
 .promo__image {
-  margin: -138px auto 2px;
+  margin: -136px auto 3px;
   width: 280px;
   height: 271px;
   display: block;
@@ -72,7 +73,7 @@
     width: 483px;
     // margin-left: 117px;
     margin-right: 50px;
-    padding-bottom: 530px;
+    padding-bottom: 527px;
   }
 
   .promo__inner {
@@ -95,7 +96,8 @@
     line-height: 20px;
     text-align: left;
     color: $color_dark-gray-title;
-    margin-bottom: 48px;
+    margin-bottom: 49px;
+    margin-left: 1px;
   }
 
   .promo__image {
@@ -106,13 +108,15 @@
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    margin-bottom: 1px;
   }
 
   .promo__btn {
     width: 245px;
     margin: 0;
     font-size: 20px;
-    padding: 17px 0;
+    padding: 19px 0 17px;
+    margin-left: 2px;
   }
 }
 
@@ -122,16 +126,16 @@
   }
 
   .promo__wrapper {
-    padding-left: 120px;
+    padding-left: 110px;
     margin-left: 0;
-    padding-bottom: 190px;
-    margin-bottom: 80px;
+    padding-bottom: 185px;
+    margin-bottom: 83px;
     width: 600px;
   }
 
   .promo__inner {
     margin-top: 20px;
-    padding-top: 84px;
+    padding-top: 86px;
   }
 
   .promo__title {
@@ -142,6 +146,7 @@
 
   .promo__description {
     margin-bottom: 52px;
+    margin-left: 0;
   }
 
   .promo__image {
@@ -149,7 +154,7 @@
     height: 499px;
     width: auto;
     bottom: auto;
-    top: 3px;
+    top: 4px;
     left: 478px;
     transform: none;
     z-index: inherit;
@@ -157,6 +162,8 @@
   }
 
   .promo__btn {
-    padding: 17px 3px 17px 0;
+    padding: 17px 2px 17px 0;
+    margin-left: 0;
+    line-height: 20px;
   }
 }

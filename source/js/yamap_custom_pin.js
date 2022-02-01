@@ -1,8 +1,8 @@
 ymaps.ready(init);
 function init () {
-var myMap = new ymaps.Map("map", {
+var myMap = new ymaps.Map('map', {
 // Координаты центра карты
-center:[59.938790, 30.317904],
+center:[59.938820, 30.320555],
 // Масштаб карты
 zoom: 17,
 // Выводим элементы управления

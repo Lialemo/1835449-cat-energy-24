@@ -2,12 +2,12 @@
   .catalog {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 12px;
+    margin-bottom: 9px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .catalog {
-    margin-bottom: 19px;
+    margin-bottom: 14px;
   }
 }

@@ -153,7 +153,24 @@
       </div>
 
       <div class="contacts__map">
-        <div id="map" class="contacts__map-inner"></div>
+        <div id="map" class="contacts__map-inner">
+          <picture>
+            <source type="image/webp" media="(min-width: 1300px)" srcset="img/bg-map-desktop@1x.webp 1x, img/bg-map-desktop@2x.webp 2x">
+            <source type="image/webp" media="(min-width: 768px)" srcset="img/bg-map-tablet@1x.webp 1x, img/bg-map-tablet@2x.webp 2x">
+            <source type="image/webp" srcset="img/bg-map-mobile@1x.webp 1x, img/bg-map-mobile@2x.webp 2x">
+            <source media="(min-width: 1300px)" srcset="img/bg-map-desktop@1x.png 1x, img/bg-map-desktop@2x.png 2x">
+            <source media="(min-width: 768px)" srcset="img/bg-map-tablet@1x.png 1x, img/bg-map-tablet@2x.png 2x">
+            <img class="contacts__image-map" src="img/bg-map-mobile@1x.png" srcset="img/bg-map-mobile@2x.png 2x" alt="ул. Большая Конюшенная, д. 19/8, Санкт-Петербург">
+          </picture>
+          <picture>
+            <source type="image/webp" media="(min-width: 1300px)" srcset="img/map-pin-desktop@1x.webp 1x, img/map-pin-desktop@2x.webp 2x">
+            <source type="image/webp" media="(min-width: 768px)" srcset="img/map-pin-tablet@1x.webp 1x, img/map-pin-tablet@2x.webp 2x">
+            <source type="image/webp" srcset="img/map-pin-mobile@1x.webp 1x, img/map-pin-mobile@2x.webp 2x">
+            <source media="(min-width: 1300px)" srcset="img/map-pin-desktop@1x.png 1x, img/map-pin-desktop@2x.png 2x">
+            <source media="(min-width: 768px)" srcset="img/map-pin-tablet@1x.png 1x, img/map-pin-tablet@2x.png 2x">
+            <img class="contacts__image-mappin" src="img/map-pin-mobile@1x.png" srcset="img/map-pin-mobile@2x.png 2x" alt="ул. Большая Конюшенная, д. 19/8, Санкт-Петербург">
+          </picture>
+        </div>
       </div>
     </section>
 

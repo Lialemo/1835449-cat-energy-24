@@ -1,5 +1,5 @@
 .page-header {
-  padding-top: 10px;
+  padding-top: 11px;
   border-bottom: 1px solid #d9d9d9;
 
   &--index {
@@ -9,14 +9,14 @@
 
 @media (min-width: $tablet-width) {
   .page-header {
-    padding-top: 22px;
+    padding-top: 10px;
     border: none;
   }
 }
 
 @media (min-width: $desktop-width) {
   .page-header {
-    padding-top: 55px;
+    padding-top: 43px;
 
     &--index {
       background-image: url("../img/index-background-desktop@1x.jpg"),
@@ -30,5 +30,18 @@
         background-size: 720px auto, 100%;
       }
     }
+  }
+
+  .page-header--index .menu-list__item:last-child {
+    margin-left: 32px;
+    margin-right: 1px;
+  }
+
+  .page-header--index .main-nav {
+    margin-top: 11px;
+  }
+
+  .page-header--index .menu-list__link--active.menu-list__link--index::after {
+    bottom: 9px;
   }
 }

@@ -1,5 +1,5 @@
 .live-example-info {
-  margin-bottom: 34px;
+  margin-bottom: 40px;
 }
 
 .live-example-info__wrapper {
@@ -46,7 +46,7 @@
   left: 0;
   right: 0;
   margin: 0 auto;
-  bottom: 8px;
+  bottom: 10px;
   padding: 0 10px;
   display: inline-block;
   width: calc(100% - 38px);
@@ -97,6 +97,7 @@
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
+    bottom: 7px;
   }
 
   .live-example-info__cost {
@@ -104,7 +105,8 @@
     font-size: 20px;
     line-height: 20px;
     text-align: right;
-    margin-bottom: 7px;
+    margin-bottom: 6px;
+    margin-right: 2px;
   }
 
   .live-example-info__number {
@@ -120,7 +122,7 @@
   }
 
   .live-example-info__wrapper {
-    margin-bottom: 51px;
+    margin-bottom: 52px;
   }
 
   .live-example-info__caption {
@@ -133,6 +135,6 @@
   }
 
   .live-example-info__number {
-    margin-left: 60px;
+    margin-left: 59px;
   }
 }
